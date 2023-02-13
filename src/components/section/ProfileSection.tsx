@@ -24,6 +24,7 @@ import { IconButton } from "@chakra-ui/react";
 interface IProfileSection {
   song: SpotifySong;
 }
+import Router from "next/router";
 
 const iconProps = {
   variant: "ghost",
@@ -95,16 +96,15 @@ const ProfileSection: React.FC<IProfileSection> = ({ song }) => {
         </Box>
         <ButtonGroup>
           <SocialButton social={resume} />
-          <Link href={"/contact"} style={{ textDecoration: "none" }}>
             <Button
               colorScheme="blue"
               size="sm"
               margin={"5px"}
               leftIcon={<BiPhoneCall />}
+              onClick={() => {Router.push("/contact");}}
             >
               Contact Me
             </Button>
-          </Link>
         </ButtonGroup>
       </Flex>
 
