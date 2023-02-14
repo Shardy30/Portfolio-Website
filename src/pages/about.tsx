@@ -34,7 +34,7 @@ function About() {
       <Head>
         <title>Shardendu | About</title>
         <meta name="description" content="Shardendu | Software Developer" />
-        <link rel="icon" href="/profile_picture.png" />
+        <link rel="icon" href="/ssc.png" />
       </Head>
       <Container maxW="container.lg" mt={["5", "10"]} mb={["5", "10"]}>
         <PageSlideFade>

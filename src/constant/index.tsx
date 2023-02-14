@@ -267,6 +267,41 @@ const sideProjects = [
   },
 ];
 
+const achievements = [
+  {
+    title: "Expert on Codeforces (Max Rating - 1608)",
+    link:"https://codeforces.com/profile/Shardy30"
+  },
+  {
+    title: "4★ rated on CodeChef (Max Rating - 1811)",
+    link:"https://www.codechef.com/users/shardy30"
+  },
+  {
+    title: "The 2021-22 ICPC Asia Amritapuri Doublesite Regionalist. Regionals Rank - 99",
+    link:"https://drive.google.com/file/d/1SG9QqhNPkdjsSK_Iv-HRtLrbDPhBYPC0/view"
+  },
+  {
+    title: "The 2020-21 ICPC Asia Amritapuri Doublesite Regionalist. Regionals Rank - 694",
+    link: "https://drive.google.com/file/d/1RYGjJkCsYFzg7wjZXuL-x03Wgmy2DGr8/view"
+  },
+  {
+    title: "IIT-Indore Hackfest - Hackistica 2023 Winner",
+    link: "https://hackistica-23.devfolio.co/projects?prizes=Winning+Project+deployed+on+Replit&show_winners=false"
+  },
+  {
+    title: "860000+ points in Google Hashcode 2022 and Global Rank 3000 among 11k+ teams",
+    link: "https://drive.google.com/file/d/1e9SnxyfCihZBGXWG9I-BQ1tf35Qau40b/view"
+  },
+  {
+    title: "Global Rank 1553 out of 13000+ participants in Google Kickstart 2022",
+    link: "https://drive.google.com/file/d/1rVbUP36HWiBFmCDxHfRRyIadNamGjmXo/view"
+  },
+  {
+    title: "AIR 16322 in JEE Advanced 2020",
+    link: "https://jeeadv.ac.in/"
+  },
+];
+
 export {
   menuLinks,
   webTechStacks,
@@ -277,4 +312,5 @@ export {
   companies,
   educations,
   sideProjects,
+  achievements,
 };

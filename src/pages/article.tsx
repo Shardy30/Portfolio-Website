@@ -16,7 +16,7 @@ const ArticlePage: React.FC<IArticlePage> = ({ articles }) => {
       <Head>
         <title>Shardendu | Articles</title>
         <meta name="description" content="Shardendu | Software Developer" />
-        <link rel="icon" href="/profile_picture.png" />
+        <link rel="icon" href="/ssc.png" />
       </Head>
       <main>
         <Container maxW="container.lg" mt={["5", "10"]} mb={["5", "10"]}>

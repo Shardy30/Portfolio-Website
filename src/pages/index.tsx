@@ -7,6 +7,7 @@ import Meta from "../components/Meta";
 import { SideProjectSection } from "../components/section/SideProjectSection";
 import PageLayout from "../layout/PageLayout";
 import Head from "next/head";
+import AchievementsSection from "../components/section/AchievementsSection";
 export default function Home() {
   const fetcher = (url: string) => fetch(url).then((r) => r.json());
   const { data } = useSWR("/api/spotify", fetcher);
@@ -17,7 +18,7 @@ export default function Home() {
     <Head>
         <title>Shardendu | Portfolio</title>
         <meta name="description" content="Shardendu | Software Developer" />
-        <link rel="icon" href="/profile_picture.png" />
+        <link rel="icon" href="/ssc.png" />
       </Head>
       <Container maxW="container.lg" mt={["5", "10"]} mb={["5", "10"]}>
         <ProfileSection song={data} />
@@ -25,6 +26,9 @@ export default function Home() {
         <TechStackSection />
         <Divider my={10} />
         <SideProjectSection />
+        <Divider my={10} />
+        <AchievementsSection />
+        <Divider my={10} />
       </Container>
     </PageLayout>
     </>

@@ -35,7 +35,8 @@ const SpotifySection: React.FC<ISpotifySection> = ({ song }) => {
         // href={song?.isPlaying ? song.songUrl : null}
       >
         <LinkOverlay
-          //   href={song?.isPlaying ? song?.songUrl : ""}
+            href={song?.isPlaying ? song?.songUrl : "https://open.spotify.com/user/tzag7472cli27cgcu5yj9wews?si=NnUQcYLZRFW6FKxav_wGiQ"}
+            target="_blank"
           rel="noopener"
           isExternal
         >

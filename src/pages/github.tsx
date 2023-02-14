@@ -16,7 +16,7 @@ const GithubPage: React.FC<IGithubPage> = ({ repos }) => {
       <Head>
         <title>Shardendu | Github</title>
         <meta name="description" content="Shardendu | Software Developer" />
-        <link rel="icon" href="/profile_picture.png" />
+        <link rel="icon" href="/ssc.png" />
       </Head>
 
       <main>
@@ -29,7 +29,7 @@ const GithubPage: React.FC<IGithubPage> = ({ repos }) => {
 };
 
 export async function getStaticProps() {
-  const repos = await getGithubRepos(process.env.GITHUB_USERNAME || "");
+  const repos = await getGithubRepos("Shardy30");
 
   return {
     props: {

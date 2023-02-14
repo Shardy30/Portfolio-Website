@@ -21,7 +21,7 @@ const ProjectsPage: React.FC<IProjectsPage> = ({ repos, articles }) => {
       <Head>
         <title>Projects</title>
         <meta name="description" content="Shardendu | Software Developer" />
-        <link rel="icon" href="/profile_picture.png" />
+        <link rel="icon" href="/ssc.png" />
       </Head>
 
       <main>
@@ -37,7 +37,7 @@ const ProjectsPage: React.FC<IProjectsPage> = ({ repos, articles }) => {
 export default ProjectsPage;
 
 export const getStaticProps = async () => {
-  const repos = await getGithubRepos(process.env.GITHUB_USERNAME || "");
+  const repos = await getGithubRepos("Shardy30");
   const articles = await getMediumArticles(process.env.MEDIUM_USERNAME || "");
 
   return {

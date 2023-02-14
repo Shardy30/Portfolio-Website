@@ -58,7 +58,7 @@ const ProfileSection: React.FC<IProfileSection> = ({ song }) => {
         >
           Hey, I am Shardendu! <span className="waving-hand">👋</span>
         </Heading>
-        <MotionFlex alignItems={"flex-end"} whileHover={{ scale: 1.2 }}>
+        <MotionFlex alignItems={"flex-end"} whileHover={{ scale: 1.3 }}>
           <Avatar
             name="Shardendu Shekhar Chaubey"
             src="/profile_picture.png"
